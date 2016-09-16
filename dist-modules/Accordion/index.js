@@ -43,7 +43,7 @@ var Accordion = function (_Component) {
   function Accordion(props) {
     _classCallCheck(this, Accordion);
 
-    var _this = _possibleConstructorReturn(this, Object.getPrototypeOf(Accordion).call(this, props));
+    var _this = _possibleConstructorReturn(this, (Accordion.__proto__ || Object.getPrototypeOf(Accordion)).call(this, props));
 
     var activeItems = arrayify(props.activeItems);
 
